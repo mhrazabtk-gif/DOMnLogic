@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'dom-n-logic.pages.dev';
+const HOST = 'dom-n-logic.pageaura.xyz';
 const KEY = '157aba89bb464c0b8ccc3e3f464c2834';
-const KEY_LOCATION = `https://dom-n-logic.pages.dev/157aba89bb464c0b8ccc3e3f464c2834.txt`;
+const KEY_LOCATION = `https://dom-n-logic.pageaura.xyz/157aba89bb464c0b8ccc3e3f464c2834.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
