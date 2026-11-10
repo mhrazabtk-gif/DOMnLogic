@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://dom-n-logic.pages.dev';
+const DOMAIN = 'https://dom-n-logic.pageaura.xyz';
 const KEY = '157aba89bb464c0b8ccc3e3f464c2834';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'dom-n-logic.pages.dev' ||
+    url.hostname.toLowerCase() !== 'dom-n-logic.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
